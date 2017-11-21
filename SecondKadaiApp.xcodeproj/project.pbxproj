@@ -14,6 +14,7 @@
 		DE12E1A31FC2CFCC00B424B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE12E1A11FC2CFCC00B424B5 /* LaunchScreen.storyboard */; };
 		DE12E1AE1FC2CFD100B424B5 /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE12E1AD1FC2CFD100B424B5 /* SecondKadaiAppTests.swift */; };
 		DE12E1B91FC2CFD200B424B5 /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE12E1B81FC2CFD200B424B5 /* SecondKadaiAppUITests.swift */; };
+		DE12E1C71FC3DFED00B424B5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE12E1C61FC3DFED00B424B5 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DE12E1B41FC2CFD100B424B5 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE12E1B81FC2CFD200B424B5 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		DE12E1BA1FC2CFD200B424B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE12E1C61FC3DFED00B424B5 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		DE12E18C1FC2CFCA00B424B5 = {
 			isa = PBXGroup;
 			children = (
+				DE12E1C61FC3DFED00B424B5 /* ResultViewController.swift */,
 				DE12E1971FC2CFCB00B424B5 /* SecondKadaiApp */,
 				DE12E1AC1FC2CFD100B424B5 /* SecondKadaiAppTests */,
 				DE12E1B71FC2CFD100B424B5 /* SecondKadaiAppUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				DE12E19B1FC2CFCB00B424B5 /* ViewController.swift in Sources */,
 				DE12E1991FC2CFCB00B424B5 /* AppDelegate.swift in Sources */,
+				DE12E1C71FC3DFED00B424B5 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
