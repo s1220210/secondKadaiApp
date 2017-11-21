@@ -84,7 +84,7 @@
                                 <rect key="frame" x="164" y="257" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="x9d-0N-Wu2"/>
+                                    <segue destination="2nz-yV-NGI" kind="unwind" unwindAction="unwind:" id="S7V-fa-yhP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -101,6 +101,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D3p-i0-yKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="2nz-yV-NGI" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="940" y="-145"/>
         </scene>
