@@ -37,10 +37,10 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ha-p8-6xz">
-                                <rect key="frame" x="165" y="257" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="172" y="257" width="31" height="30"/>
+                                <state key="normal" title="入力"/>
                                 <connections>
-                                    <segue destination="tNy-ng-3L0" kind="show" id="NWn-Ym-NvP"/>
+                                    <segue destination="tNy-ng-3L0" kind="show" id="evD-mP-mZB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -84,7 +84,7 @@
                                 <rect key="frame" x="164" y="257" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="2nz-yV-NGI" kind="unwind" unwindAction="unwind:" id="S7V-fa-yhP"/>
+                                    <segue destination="2nz-yV-NGI" kind="unwind" unwindAction="unwind:" id="Amd-Hk-jYk"/>
                                 </connections>
                             </button>
                         </subviews>

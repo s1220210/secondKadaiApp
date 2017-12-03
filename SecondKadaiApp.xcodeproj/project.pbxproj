@@ -48,7 +48,7 @@
 		DE12E1B41FC2CFD100B424B5 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE12E1B81FC2CFD200B424B5 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		DE12E1BA1FC2CFD200B424B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE12E1C61FC3DFED00B424B5 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		DE12E1C61FC3DFED00B424B5 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,6 @@
 		DE12E18C1FC2CFCA00B424B5 = {
 			isa = PBXGroup;
 			children = (
-				DE12E1C61FC3DFED00B424B5 /* ResultViewController.swift */,
 				DE12E1971FC2CFCB00B424B5 /* SecondKadaiApp */,
 				DE12E1AC1FC2CFD100B424B5 /* SecondKadaiAppTests */,
 				DE12E1B71FC2CFD100B424B5 /* SecondKadaiAppUITests */,
@@ -100,6 +99,7 @@
 		DE12E1971FC2CFCB00B424B5 /* SecondKadaiApp */ = {
 			isa = PBXGroup;
 			children = (
+				DE12E1C61FC3DFED00B424B5 /* ResultViewController.swift */,
 				DE12E1981FC2CFCB00B424B5 /* AppDelegate.swift */,
 				DE12E19A1FC2CFCB00B424B5 /* ViewController.swift */,
 				DE12E19C1FC2CFCB00B424B5 /* Main.storyboard */,
@@ -509,6 +509,7 @@
 				DE12E1BF1FC2CFD200B424B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE12E1C01FC2CFD200B424B5 /* Build configuration list for PBXNativeTarget "SecondKadaiAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +518,7 @@
 				DE12E1C21FC2CFD200B424B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE12E1C31FC2CFD200B424B5 /* Build configuration list for PBXNativeTarget "SecondKadaiAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +527,7 @@
 				DE12E1C51FC2CFD200B424B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
